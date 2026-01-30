@@ -1,7 +1,5 @@
 # Docx Tamplater Of Leave Request
 
-A brief description of your project.
-
 ## Requirements
 
 - PHP >= 8.2
