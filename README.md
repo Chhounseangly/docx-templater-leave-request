@@ -19,11 +19,8 @@ A brief description of your project.
 - composer install
 
 ### 3. Set up environment variables
-# Copy the example env file if it exists
-cp .env.example .env
-
-Edit .env to configure your database
-Example for PostgreSQL:
+- cp .env.example .env
+# Example for PostgreSQL:
 - DB_CONNECTION=pgsql
 - DB_HOST=127.0.0.1
 - DB_PORT=5432
