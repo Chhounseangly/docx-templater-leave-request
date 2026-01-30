@@ -22,14 +22,14 @@ composer install
 # Copy the example env file if it exists
 cp .env.example .env
 
-# Edit .env to configure your database
-# Example for PostgreSQL:
-# DB_CONNECTION=pgsql
-# DB_HOST=127.0.0.1
-# DB_PORT=5432
-# DB_DATABASE=db_name
-# DB_USERNAME=postgres
-# DB_PASSWORD=your_password_here
+ Edit .env to configure your database
+ Example for PostgreSQL:
+ DB_CONNECTION=pgsql
+ DB_HOST=127.0.0.1
+ DB_PORT=5432
+ DB_DATABASE=db_name
+ DB_USERNAME=postgres
+ DB_PASSWORD=your_password_here
 
 ### 4. Generate app key (Laravel)
 php artisan key:generate
